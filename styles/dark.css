@@ -10,18 +10,3 @@
   --background-color: #000028;
   --background-image: url(../images/cover-image-dark.png);
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --record-decor-visibility: visible;
-    --main-text-color: #f1b2ce;
-    --accent-color: #ff0070;
-    --accent-contrast-color: #000028;
-    --logo-color: #db00ff;
-    --logo-shadow-color: var(--accent-color);
-    --secondary-color: var(--accent-color);
-    --secondary-translucent-color: rgba(255, 0, 112, 0.40);
-    --background-color: #000028;
-    --background-image: url(../images/cover-image-dark.png);
-  }
-}
